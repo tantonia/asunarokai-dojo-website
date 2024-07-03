@@ -1,0 +1,10 @@
+.responsive-img {
+  width: 3%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.scroll-img {
+  width: auto;
+  height: 100%;
+}

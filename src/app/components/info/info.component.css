@@ -1,0 +1,15 @@
+.responsive-img {
+  width: 3%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.scroll-img {
+  width: auto;
+  height: 100%;
+}
+
+.kata-img {
+  width: 35%;
+  height: auto;
+}

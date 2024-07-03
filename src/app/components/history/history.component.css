@@ -1,0 +1,18 @@
+.responsive-img {
+  width: 3%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.scroll-img {
+  width: auto;
+  height: 100%;
+}
+
+.sensei-img {
+  width: 60%;
+  height: auto;
+  border: 1px solid whitesmoke;
+  border-radius: 2%;
+  margin-bottom: 2px;
+}

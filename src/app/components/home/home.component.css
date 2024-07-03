@@ -1,0 +1,14 @@
+.budo-img {
+  width: auto;
+  height: 50%;
+}
+
+.main-img {
+  width: auto;
+  height: 100%;
+}
+
+.shadow-img {
+  box-shadow: 0 4px 8px rgba(223, 255, 234, 0.888);
+  border-radius: 5px;
+}
