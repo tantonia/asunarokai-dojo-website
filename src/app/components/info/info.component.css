@@ -10,6 +10,8 @@
 }
 
 .kata-img {
-  width: 35%;
+  width: 50%;
   height: auto;
+  display: flex;
+  margin: 20% 0;
 }
