@@ -5,8 +5,8 @@
 }
 
 .scroll-img {
-  width: auto;
-  height: 100%;
+  max-width: 100%;
+  max-height: 80%;
 }
 
 .kata-img {
