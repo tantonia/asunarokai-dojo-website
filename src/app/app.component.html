@@ -1,12 +1,15 @@
 <div class="bg-dark text-light min-vh-100">
   <app-header></app-header>
-  <div class="d-flex flex-column gap-2">
+  <div class="d-flex flex-column">
     <nav
-      class="navbar navbar-expand-sm navbar-dark navbar-text fw-semibold mx-2"
+      class="navbar navbar-expand-sm navbar-dark bg-transparent navbar-text fw-semibold mx-2 py-0"
     >
       <div class="container-fluid">
+        <a class="navbar-brand mb-1" [routerLink]="['/']">
+          <img src="Asunaro mon white.jpg" alt="Asunaro white" />
+        </a>
         <button
-          class="navbar-toggler small mb-1"
+          class="navbar-toggler collapsed d-flex d-sm-none flex-column justify-content-around"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -14,7 +17,9 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon small"></span>
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse p-md-3" id="navbarNav">
           <ul
@@ -25,7 +30,7 @@
                 routerLink="/home"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
-                class="nav-link active text-light"
+                class="nav-link active text-light px-0"
                 aria-current="page"
                 >Αρχική σελίδα</a
               >
@@ -35,7 +40,7 @@
                 routerLink="/about"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
-                class="nav-link text-light"
+                class="nav-link text-light px-0"
                 aria-current="page"
                 >Dojo</a
               >
@@ -45,7 +50,7 @@
                 routerLink="/info"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
-                class="nav-link text-light"
+                class="nav-link text-light px-0"
                 aria-current="page"
                 >Iaido</a
               >
@@ -55,7 +60,7 @@
                 routerLink="/history"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
-                class="nav-link text-light"
+                class="nav-link text-light px-0"
                 aria-current="page"
                 >Shinkage Ryū</a
               >
@@ -65,7 +70,7 @@
               routerLink="/news"
               routerLinkActive="active"
               ariaCurrentWhenActive="page"
-              class="nav-link text-light" aria-current="page"
+              class="nav-link text-light px-0" aria-current="page"
               href="#"
               >Νέα</a
             >
@@ -75,7 +80,7 @@
                 routerLink="/links"
                 routerLinkActive="active"
                 ariaCurrentWhenActive="page"
-                class="nav-link text-light"
+                class="nav-link text-light px-0"
                 aria-current="page"
                 href="#"
                 >Links</a
@@ -85,7 +90,7 @@
         </div>
       </div>
     </nav>
-    <div class="p-2 text-nowrap w-auto mb-4">
+    <div>
       <router-outlet></router-outlet>
     </div>
   </div>
