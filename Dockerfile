@@ -10,6 +10,7 @@ RUN npm install -g @angular/cli@18
 
 COPY package.json package-lock.json ./
 RUN npm i
+#sxolio
 
 COPY . .
 ENTRYPOINT ["ng", "serve", "--host", "0.0.0.0"]
